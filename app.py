@@ -104,6 +104,12 @@ if not st.session_state.authenticated:
             justify-content: center;
         }
         
+        /* Force Label Colors (Fix for Invisible Text in Dark Mode) */
+        .stRadio p, .stRadio label, .stTextInput label, .stTextInput p {
+            color: #1e293b !important; /* Force Dark Text */
+            font-weight: 600;
+        }
+
         .stRadio > div[role="radiogroup"] > label:hover {
             color: #15803d !important;
             background-color: white !important;
