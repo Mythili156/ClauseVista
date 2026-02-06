@@ -175,11 +175,11 @@ if not st.session_state.authenticated:
             if "auth_mode" not in st.session_state:
                 st.session_state.auth_mode = "Sign In"
                 
+            # Removed key="auth_nav" to allow programmatic reset via index
             selected_mode = st.radio("Auth Mode", ["Sign In", "Create Account"], 
                                    horizontal=True, 
                                    label_visibility="collapsed",
-                                   index=0 if st.session_state.auth_mode == "Sign In" else 1,
-                                   key="auth_nav")
+                                   index=0 if st.session_state.auth_mode == "Sign In" else 1)
 
             if selected_mode != st.session_state.auth_mode:
                 st.session_state.auth_mode = selected_mode
@@ -233,7 +233,7 @@ if not st.session_state.authenticated:
                         if success:
                             st.success("Account Created! Redirecting to Login...")
                             st.session_state.auth_mode = "Sign In"
-                            st.session_state.auth_nav = "Sign In" # Ensure widget updates
+                            # Removed conflicting state update
                             time.sleep(1)
                             st.rerun()
                         else:
