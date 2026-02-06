@@ -233,7 +233,8 @@ if not st.session_state.authenticated:
                         if success:
                             st.success("Account Created! Redirecting to Login...")
                             st.session_state.auth_mode = "Sign In"
-                            time.sleep(1.5)
+                            st.session_state.auth_nav = "Sign In" # Ensure widget updates
+                            time.sleep(1)
                             st.rerun()
                         else:
                             st.error(msg)
