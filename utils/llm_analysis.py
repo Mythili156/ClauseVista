@@ -44,15 +44,19 @@ def heuristic_analysis(text):
     score = 20 # Base low risk
     
     # --- Entity Extraction (spaCy) ---
-    entities = {}
+    # --- Entity Extraction (spaCy) ---
+    entities = {'dates': [], 'money': [], 'orgs': [], 'gpe': [], 'financials': []} # Default init
     clause_count = len(text.split('\n\n')) # Rough paragraph count
     
     if nlp:
-        doc = nlp(text)
-        entities['dates'] = [ent.text for ent in doc.ents if ent.label_ == "DATE"]
-        entities['money'] = [ent.text for ent in doc.ents if ent.label_ == "MONEY"]
-        entities['orgs'] = [ent.text for ent in doc.ents if ent.label_ == "ORG" or ent.label_ == "PERSON"]
-        entities['gpe'] = [ent.text for ent in doc.ents if ent.label_ == "GPE"] # Jurisdiction/Location
+        try:
+            doc = nlp(text)
+            entities['dates'] = [ent.text for ent in doc.ents if ent.label_ == "DATE"]
+            entities['money'] = [ent.text for ent in doc.ents if ent.label_ == "MONEY"]
+            entities['orgs'] = [ent.text for ent in doc.ents if ent.label_ == "ORG" or ent.label_ == "PERSON"]
+            entities['gpe'] = [ent.text for ent in doc.ents if ent.label_ == "GPE"] # Jurisdiction/Location
+        except Exception:
+            pass # Fallback to regex if spacy fails
 
     # --- Risk Rules ---
     
