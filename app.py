@@ -317,7 +317,7 @@ else:
         /* content styling */
         .risk-high { color: #be123c; background: #fff1f2; padding: 2px 8px; border-radius: 4px; border: 1px solid #ffe4e6; }
         .risk-medium { color: #b45309; background: #fffbeb; padding: 2px 8px; border-radius: 4px; border: 1px solid #fef3c7; }
-        .main-header { font-size: 2.5rem; color: #0f766e; font-weight: 800; }
+        .main-header { font-size: 2.5rem; color: #ffff; font-weight: 800; }
         .card { padding: 15px; border-radius: 10px; background-color: white; border: 1px solid #e2e8f0; margin-bottom: 20px; }
     </style>
     """, unsafe_allow_html=True)
