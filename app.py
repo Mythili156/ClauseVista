@@ -123,6 +123,17 @@ if not st.session_state.authenticated:
             box-shadow: 0 4px 6px -1px rgba(21, 128, 61, 0.3);
         }
         
+        /* Hide the actual Radio Button Circle to make it look like a Tab */
+        .stRadio > div[role="radiogroup"] > label > div:first-child {
+            display: none !important;
+        }
+        
+        /* Center text in the "Tab" */
+        .stRadio > div[role="radiogroup"] > label > div[data-testid="stMarkdownContainer"] {
+            text-align: center;
+            width: 100%;
+        }
+        
         /* Input Fields */
         .stTextInput > div > div > input {
             border-radius: 10px;
