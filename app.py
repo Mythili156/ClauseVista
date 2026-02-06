@@ -282,7 +282,28 @@ else:
     # --- CSS Styling (Authenticated) ---
     st.markdown("""
     <style>
-        .stApp { background-color: #f8fafc; }
+        /* GLOBAL TEXT FIX FOR MOBILE/DARK MODE */
+        .stApp { 
+            background-color: #f8fafc; 
+            color: #0f172a !important; 
+        }
+        
+        /* Force Dark Text on ALL Elements */
+        p, h1, h2, h3, h4, h5, h6, span, li, div, label, .stMarkdown, .stText, .stFileUploader {
+            color: #0f172a !important;
+        }
+        
+        /* Fix File Uploader Text */
+        [data-testid="stFileUploader"] {
+            color: #0f172a !important;
+        }
+        [data-testid="stFileUploader"] section {
+            background-color: #ffffff !important;
+            border: 1px dashed #cbd5e1 !important;
+        }
+        [data-testid="stFileUploader"] section > div {
+            color: #0f172a !important;
+        }
         
         /* Sidebar Styling */
         [data-testid="stSidebar"] {
