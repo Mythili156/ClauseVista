@@ -41,7 +41,7 @@ if not st.session_state.authenticated:
     <style>
         /* Global Font & Background */
         .stApp {
-            background-color: #f0fdf4; /* global-green */
+            background-color: #0f766e; /* global-green */
             font-family: 'Inter', sans-serif;
         }
         
