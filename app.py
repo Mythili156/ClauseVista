@@ -43,6 +43,12 @@ if not st.session_state.authenticated:
         .stApp {
             background-color: #f0fdf4; /* global-green */
             font-family: 'Inter', sans-serif;
+            color: #0f172a !important; /* Force Dark Text Globally */
+        }
+        
+        /* Force Text Colors on All Elements for Mobile/Dark Mode Contrast */
+        p, h1, h2, h3, h4, h5, h6, span, li, div, label, .stMarkdown, .stText {
+            color: #0f172a !important;
         }
         
         /* Headers */
