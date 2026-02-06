@@ -123,12 +123,19 @@ if not st.session_state.authenticated:
             border: 1px solid #cbd5e1;
             padding: 10px 12px;
             font-size: 1rem;
-            color: #334155;
-            background-color: #f8fafc;
+            color: #1e293b !important; /* Force Dark Text */
+            background-color: #ffffff !important; /* Force White Background */
+            caret-color: #1e293b !important;
+        }
+        .stTextInput > div > div > input::placeholder {
+            color: #94a3b8 !important; /* Force Visible Placeholder */
+            opacity: 1;
         }
         .stTextInput > div > div > input:focus {
-            border-color: #15803d; /* Green-700 */
+            border-color: #15803d; 
             box-shadow: 0 0 0 2px rgba(21, 128, 61, 0.2);
+            color: #1e293b !important;
+            background-color: #ffffff !important;
         }
         
         /* Buttons */
