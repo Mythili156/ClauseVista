@@ -1,0 +1,27 @@
+EMPLOYMENT AGREEMENT
+
+THIS AGREEMENT is made on this 5th day of February, 2026, by and between:
+
+TechSolutions Pvt Ltd, a company incorporated under the Companies Act, 2013, having its registered office at Bangalore ("Employer")
+AND
+John Doe, residing at Mumbai ("Employee").
+
+1. POSITION AND DUTIES
+The Employee is hired as a Senior Software Engineer. The Employee agrees to devote full time and attention to the business of the Employer.
+
+2. COMPENSATION
+The Employee shall receive a monthly salary of INR 1,50,000.
+
+3. CONFIDENTIALITY
+The Employee agrees not to disclose any trade secrets or proprietary information of the Employer to any third party during or after the term of employment.
+
+4. NON-COMPETE
+During the employment and for a period of 2 years after termination, the Employee shall not work for any competitor of the Employer within India.
+
+5. TERMINATION
+Either party may terminate this agreement by giving 1 week notice. The Employer reserves the right to terminate immediately for cause.
+
+6. GOVERNING LAW
+This agreement shall be governed by the laws of India.
+
+IN WITNESS WHEREOF, the parties have signed this Agreement.

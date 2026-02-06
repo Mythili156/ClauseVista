@@ -1,0 +1,16 @@
+{
+    "my@gmail.com": {
+        "password": "41636c2096cf74aa10f77eedd046a49871d6b4165cd89dbb9864ce265145a4f7",
+        "name": "my"
+    },
+    "john_legal": {
+        "password": "0f4dd6c67bc8c827a2b181bc763f9ab96166d8f50840fe1ae0bbc0e77464da2c",
+        "name": "John",
+        "email": "john@gmail.com"
+    },
+    "john_dark": {
+        "password": "0f4dd6c67bc8c827a2b181bc763f9ab96166d8f50840fe1ae0bbc0e77464da2c",
+        "name": "John",
+        "email": "john123@gmail.com"
+    }
+}

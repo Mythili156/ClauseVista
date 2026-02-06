@@ -1,0 +1,10 @@
+streamlit
+spacy
+python-docx
+PyPDF2
+pandas
+plotly
+openai
+anthropic
+python-dotenv
+fpdf

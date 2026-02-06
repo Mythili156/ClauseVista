@@ -1,0 +1,99 @@
+[
+  {
+    "timestamp": "2026-02-06 20:51:22.740899",
+    "user": "john_dark",
+    "action": "Contract Analysis",
+    "details": {
+      "filename": "sample_hindi_contract.txt",
+      "risk_score": 30
+    }
+  },
+  {
+    "timestamp": "2026-02-06 20:52:00.428361",
+    "user": "john_dark",
+    "action": "Contract Analysis",
+    "details": {
+      "filename": "sample_hindi_contract.txt",
+      "risk_score": 30
+    }
+  },
+  {
+    "timestamp": "2026-02-06 20:53:25.195101",
+    "user": "john_dark",
+    "action": "Contract Analysis",
+    "details": {
+      "filename": "sample_employment.txt",
+      "risk_score": 60
+    }
+  },
+  {
+    "timestamp": "2026-02-06 20:57:03.243142",
+    "user": "john_dark",
+    "action": "User Login",
+    "details": {
+      "source": "web"
+    }
+  },
+  {
+    "timestamp": "2026-02-06 20:57:14.366814",
+    "user": "john_dark",
+    "action": "Contract Analysis",
+    "details": {
+      "filename": "sample_hindi_contract.txt",
+      "risk_score": 30
+    }
+  },
+  {
+    "timestamp": "2026-02-06 21:15:12.090080",
+    "user": "john_dark",
+    "action": "Contract Analysis",
+    "details": {
+      "filename": "sample_hindi_contract.txt",
+      "risk_score": 30
+    }
+  },
+  {
+    "timestamp": "2026-02-06 21:18:39.812060",
+    "user": "john_dark",
+    "action": "User Login",
+    "details": {
+      "source": "web"
+    }
+  },
+  {
+    "timestamp": "2026-02-06 21:18:49.599339",
+    "user": "john_dark",
+    "action": "Contract Analysis",
+    "details": {
+      "filename": "requirements.txt",
+      "risk_score": 20
+    }
+  },
+  {
+    "timestamp": "2026-02-06 21:19:09.155967",
+    "user": "john_dark",
+    "action": "Contract Analysis",
+    "details": {
+      "filename": "sample_nda.txt",
+      "risk_score": 30
+    }
+  },
+  {
+    "timestamp": "2026-02-06 21:21:46.616159",
+    "user": "john_dark",
+    "action": "Contract Analysis",
+    "details": {
+      "filename": "sample_employment.txt",
+      "risk_score": 60
+    }
+  },
+  {
+    "timestamp": "2026-02-06 21:27:31.523045",
+    "user": "john_dark",
+    "action": "Contract Analysis",
+    "details": {
+      "filename": "sample_employment.txt",
+      "risk_score": 60
+    }
+  }
+]

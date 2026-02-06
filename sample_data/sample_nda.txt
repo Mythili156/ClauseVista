@@ -1,0 +1,22 @@
+NON-DISCLOSURE AGREEMENT (NDA)
+
+This Non-Disclosure Agreement ("Agreement") is entered into by and between:
+
+StartUp Hub ("Disclosing Party")
+AND
+Consultant Agency ("Receiving Party")
+
+1. DEFINITION OF CONFIDENTIAL INFORMATION
+"Confidential Information" includes all technical and non-technical information provided by the Disclosing Party, including but not limited to product designs, customer lists, and financial data.
+
+2. OBLIGATIONS
+The Receiving Party agrees to hold all Confidential Information in strict confidence and shall not use it for any purpose other than the engagement.
+
+3. EXCLUSIONS
+Information that is already public knowledge shall not be considered Confidential Information.
+
+4. TERM
+This Agreement is effective for 5 years from the date of disclosure.
+
+5. PENALTY
+Any breach of this agreement will result in a penalty of INR 10,00,000 and immediate termination of any business relationship.
