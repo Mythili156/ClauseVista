@@ -158,9 +158,10 @@ if not st.session_state.authenticated:
         }
         
         /* Buttons */
+        /* Buttons */
         .stButton > button {
-            background-color: #15803d; /* Green-700 */
-            color: white;
+            background-color: #15803d !important; /* Force Green */
+            color: #ffffff !important; /* Force White Text */
             border-radius: 10px;
             padding: 12px 24px;
             font-weight: 600;
@@ -169,9 +170,14 @@ if not st.session_state.authenticated:
             transition: all 0.2s ease;
         }
         .stButton > button:hover {
-            background-color: #166534; /* Green-800 */
+            background-color: #166534 !important; /* Darker Green */
             box-shadow: 0 4px 6px -1px rgba(21, 128, 61, 0.4);
-            color: white;
+            color: #ffffff !important;
+        }
+        
+        /* Secondary Button Styling (if any) */
+        .stButton > button:active {
+            color: #ffffff !important;
         }
     </style>
     """, unsafe_allow_html=True)
@@ -303,6 +309,19 @@ else:
         }
         [data-testid="stFileUploader"] section > div {
             color: #0f172a !important;
+        }
+        
+        /* Force Button Colors Globally */
+        .stButton > button {
+            background-color: #15803d !important; /* Force Green */
+            color: #ffffff !important; /* Force White Text */
+            border-radius: 8px;
+            border: none;
+            font-weight: 600;
+        }
+        .stButton > button:hover {
+            background-color: #166534 !important;
+            color: #ffffff !important;
         }
         
         /* Sidebar Styling */
